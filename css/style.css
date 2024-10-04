@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    /* 서체 Noto Sans KR(구글폰트 웹폰트로 연결) / 폰트 크기 18px / 줄간격 28px / 글자색 #666 */
+    font-size: 18px;
+    line-height: 28px;
+    counter-reset: #666;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+#banner_wrap{
+    background: url(../images/sub1_main_bg.jpg) no-repeat center;
+    height: 866px;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.gnb{
+    display: flex;
+}
+.gnb li a{
+    color: #fff;
+    font-weight: 500;
+    padding: 0 20px;
+}
+.gnb li a:hover{
+    color: #ffdc03;
+}
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 120px;
+}
+.banner h3{
+    font-size: 30px;
+}
+.banner h1{
+    padding: 80px 0 40px 0;
+    line-height: 70px;
+    font-size: 70px;
+    font-weight: 500;
+}
+.banner h4{
+    font-size: 24px;
+}
+#section1{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.title{
+    padding-bottom: 50px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.text_box p{
+    padding-bottom: 40px;
+}
+.text_box .bold{
+    font-weight: bold;
+}
+.text_box .small{
+    font-size: 14px;
+}
+/* section2 */
+#section2_wrap{
+    background-color: #ddd;
+    height: 600px;
+}
+.section2{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+/* section3 */
+#section3{
+    width: 1200px;
+    margin: 100px auto;
+    height: 250px;
+}
+.section3_ul{
+    display: flex;
+    justify-content: space-between;
+}
+.section3_ul .bold,
+.section4 .bold{
+    font-weight: 600;
+    padding: 20px 0;
+}
+/* section4 */
+#section4_wrap{
+    background-color: #ffdc03;
+    height: 600px;
+}
+.section4{
+    width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.section4 img{
+    margin: 30px 0;
+    border: 30px solid #fff;
+    border-radius: 20px;
+}
+/* section5 */
+#section5{
+    width: 840px;
+    margin: 100px auto;
+    height: 300px;
+    text-align: center;
+}
+#section5 h2{
+    font-weight: 500;
+    padding: 20px 0;
+}
+.button{
+    display: inline-block;
+    background-color: #ffdc03;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.335);
+}
+
+/* footer */
+#footer_wrap{
+    background-color: #0f0f0f;
+    color: #b7b7b7;
+    height: 200px;
+}
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer_link{
+    display: flex;
+    padding: 30px 0;
+}
+.footer_link li a{
+    display: block;
+    margin-right: 40px;
+
+}
+.footer p{
+    font-size: 14px;
+}
